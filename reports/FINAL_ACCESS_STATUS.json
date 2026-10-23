@@ -1,0 +1,111 @@
+{
+  "observed_at": "2026-10-23T19:30:27.647667+00:00",
+  "api_key_valid": true,
+  "history": {
+    "status": "HTTP_ERROR",
+    "http_status": 401
+  },
+  "competition_account_confirmed": false,
+  "routing_verified": false,
+  "allowed_markets_verified": false,
+  "trading_fees_verified": false,
+  "authenticated_writes": 0,
+  "competition_wallet_confirmed": true,
+  "competition_wallets": [
+    {
+      "competition_name_matched": true,
+      "active": true,
+      "suspended": false,
+      "type": "prop",
+      "nominal_start_balance_verified": false,
+      "expiry_verified": false,
+      "cash_TMN": {
+        "total": "5000000",
+        "available": "5000000",
+        "freeze": "0"
+      },
+      "current_5m_TMN_match": true,
+      "wallet_read_success": true
+    }
+  ],
+  "basic_read_accepted": true,
+  "observations": [
+    {
+      "path": "/v1/prop/user/packages/history",
+      "method": "GET",
+      "account_scoped": false,
+      "observed_at": "2026-10-23T19:30:27.647813+00:00",
+      "http_status": 401,
+      "latency_ms": 339,
+      "server_date": "Fri, 23 Oct 2026 19:30:28 GMT",
+      "response_error_code": 1201
+    },
+    {
+      "path": "/v1/account/fee",
+      "method": "GET",
+      "account_scoped": false,
+      "observed_at": "2026-10-23T19:30:27.987167+00:00",
+      "http_status": 200,
+      "latency_ms": 193,
+      "server_date": "Fri, 23 Oct 2026 19:30:28 GMT",
+      "response_error_code": null,
+      "success": true
+    },
+    {
+      "path": "/sub-accounts",
+      "method": "GET",
+      "account_scoped": false,
+      "observed_at": "2026-10-23T19:30:28.180202+00:00",
+      "http_status": 200,
+      "latency_ms": 95,
+      "server_date": "Fri, 23 Oct 2026 19:30:28 GMT",
+      "response_error_code": null,
+      "success": true
+    },
+    {
+      "path": "/v1/account/balances-detail",
+      "method": "GET",
+      "account_scoped": true,
+      "observed_at": "2026-10-23T19:30:28.276175+00:00",
+      "http_status": 200,
+      "latency_ms": 769,
+      "server_date": "Fri, 23 Oct 2026 19:30:29 GMT",
+      "response_error_code": null,
+      "success": true
+    },
+    {
+      "path": "/v1/prop/user/packages/active",
+      "method": "GET",
+      "account_scoped": true,
+      "observed_at": "2026-10-23T19:30:29.047322+00:00",
+      "http_status": 401,
+      "latency_ms": 181,
+      "server_date": "Fri, 23 Oct 2026 19:30:29 GMT",
+      "response_error_code": 1201
+    }
+  ],
+  "package_overview_probe": {
+    "authenticated_writes": 0,
+    "package_details": "BLOCKED: no verified package ID; no guessed identifier used",
+    "overview": {
+      "http_status": 401,
+      "kind": "HTTP_ERROR"
+    },
+    "observations": [
+      {
+        "path": "/v1/prop/user/packages/overview",
+        "method": "GET",
+        "account_scoped": false,
+        "observed_at": "2026-10-23T19:31:18.754192+00:00",
+        "http_status": 401,
+        "latency_ms": 341,
+        "server_date": "Fri, 23 Oct 2026 19:31:19 GMT",
+        "response_error_code": 1201
+      }
+    ]
+  },
+  "investigation_status": "BLOCKED; short diagnostic stopped after401/1201 persisted",
+  "competition_trading_cutoff": "UNVERIFIED",
+  "reported_submission_deadline": "2026-10-23 23:50; timezone unconfirmed",
+  "live_trading_authorized": false
+}

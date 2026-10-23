@@ -1,0 +1,35 @@
+{
+  "observed_at": "2026-10-23T19:42:09.648292+00:00",
+  "dependency_install": "Previously verified fresh Python3.11.6 venv, 30 pinned packages, official PyPI + download cache, ARM64 wheel target",
+  "reused_original_site_packages": false,
+  "source_credentials_present": false,
+  "checks": [
+    {
+      "check": "tests",
+      "exit_code": 0,
+      "fresh_venv": true,
+      "private_credentials_present": false,
+      "passed": 74,
+      "seconds": 1.418
+    },
+    {
+      "check": "viewer",
+      "exit_code": 0,
+      "fresh_venv": true,
+      "private_credentials_present": false
+    },
+    {
+      "check": "offline-boxapi",
+      "exit_code": 0,
+      "fresh_venv": true,
+      "private_credentials_present": false
+    },
+    {
+      "check": "cutoff",
+      "exit_code": 0,
+      "fresh_venv": true,
+      "private_credentials_present": false
+    }
+  ],
+  "network_calls": 0
+}

@@ -1,0 +1,52 @@
+{
+  "simulation_only": true,
+  "official_cutoff_used": false,
+  "real_exchange_requests": 0,
+  "journal_events": 8,
+  "timeline": [
+    {
+      "synthetic_epoch": 1800,
+      "state": "HALTED_UNKNOWN_DEADLINE",
+      "entries_allowed": false,
+      "settled": false,
+      "live_orders": false
+    },
+    {
+      "synthetic_epoch": 1800,
+      "state": "RUNNING",
+      "entries_allowed": true,
+      "settled": false,
+      "live_orders": false
+    },
+    {
+      "synthetic_epoch": 1900,
+      "state": "SETTLED_TMN",
+      "entries_allowed": false,
+      "settled": true,
+      "realized_pnl_TMN": 4527.522500000006,
+      "cash_TMN": 5004527.5225,
+      "fees_TMN": 314.9775,
+      "remaining_assets": {
+        "BTC": 0.0
+      },
+      "remaining_cost_basis_TMN": 0,
+      "valuation_is_not_realized_cash": true,
+      "live_orders": false
+    },
+    {
+      "synthetic_epoch": 2000,
+      "state": "SETTLED_TMN",
+      "entries_allowed": false,
+      "settled": true,
+      "realized_pnl_TMN": 4527.522500000006,
+      "cash_TMN": 5004527.5225,
+      "fees_TMN": 314.9775,
+      "remaining_assets": {
+        "BTC": 0.0
+      },
+      "remaining_cost_basis_TMN": 0,
+      "valuation_is_not_realized_cash": true,
+      "live_orders": false
+    }
+  ]
+}

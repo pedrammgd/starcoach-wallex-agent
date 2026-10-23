@@ -1,0 +1,39 @@
+{
+  "provider": "Microsoft Edge public speech service via edge-tts",
+  "voice": "fa-IR-FaridNeural",
+  "synthetic_narration": true,
+  "billing_credentials_used": false,
+  "paid_resource_created": false,
+  "segments": [
+    {
+      "segment": 1,
+      "file": "1.mp3",
+      "bytes": 268848
+    },
+    {
+      "segment": 2,
+      "file": "2.mp3",
+      "bytes": 363600
+    },
+    {
+      "segment": 3,
+      "file": "3.mp3",
+      "bytes": 316656
+    },
+    {
+      "segment": 4,
+      "file": "4.mp3",
+      "bytes": 292896
+    },
+    {
+      "segment": 5,
+      "file": "5.mp3",
+      "bytes": 380592
+    },
+    {
+      "segment": 6,
+      "file": "6.mp3",
+      "bytes": 345312
+    }
+  ]
+}

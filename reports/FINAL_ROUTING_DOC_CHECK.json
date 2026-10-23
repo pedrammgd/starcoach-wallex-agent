@@ -1,0 +1,8 @@
+{
+  "route": "BLOCKED",
+  "authenticated_writes": 0,
+  "http_status": 200,
+  "scripts": [],
+  "known_documentation_build_present": true,
+  "documented_post_prop_header_verified": false
+}

@@ -1,0 +1,12 @@
+.git
+.venv
+.tools
+.env
+.env.*
+state
+WALLEX_CHALLENGE_VIDEO.mp4
+__pycache__
+
+.liara-auth.json
+.liara/
+.secrets/

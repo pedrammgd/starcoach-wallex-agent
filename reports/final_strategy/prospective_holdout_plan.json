@@ -1,0 +1,10 @@
+{
+  "frozen_at": "2026-10-23T12:43:18.989010+00:00",
+  "strategy": "cash",
+  "parameter_fitting_on_future_data": false,
+  "prospective_start_utc": "2026-10-23T13:00:00+00:00",
+  "minimum_bars_for_meaningful_research": 500,
+  "completed": false,
+  "historical_holdout_previously_exposed": true,
+  "sealed_15_hour_sample": "not evaluated for returns; overlaps public prices observed in current shadow, not a claim of fully unseen prospective performance"
+}

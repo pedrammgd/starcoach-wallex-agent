@@ -1,0 +1,14 @@
+{
+  "observed_at": "2026-10-23T19:43:12.078043+00:00",
+  "tree_secret_scan": "PASS",
+  "known_private_values_checked": 3,
+  "account_fingerprints_removed": true,
+  "credentials_copied": false,
+  "raw_voice_recordings_copied": false,
+  "source_matches_active_project": true,
+  "video_completed": true,
+  "video_audio": "synthetic Persian narration; user authorized public Edge TTS processing",
+  "authenticated_writes": 0,
+  "published": false,
+  "original_silent_video_preserved": true
+}

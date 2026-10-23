@@ -1,0 +1,56 @@
+{
+  "BTCTMN": [
+    {
+      "bars": 3592,
+      "start": 1777150800,
+      "end": 1790082000,
+      "hash": "90099f8abce7fe7fc9ef692bbfa123fee17441a72c515e77a67f3a2898fc63d9"
+    },
+    {
+      "bars": 727,
+      "start": 1790085600,
+      "end": 1792702800,
+      "hash": "4980efb274d6c1b37b8ccfa2442cde87c2cc871b24a40f6b597985a572337e18"
+    }
+  ],
+  "ETHTMN": [
+    {
+      "bars": 3592,
+      "start": 1777150800,
+      "end": 1790082000,
+      "hash": "2aa050e735bbc21527760e0538b8f6edb7e5093236656723a1cc8448033a9618"
+    },
+    {
+      "bars": 727,
+      "start": 1790085600,
+      "end": 1792702800,
+      "hash": "2f2399e6d3a8bacca0d73c15e947b7c770e2d15e5a2ae8acaa98ded44a0b2023"
+    }
+  ],
+  "USDTTMN": [
+    {
+      "bars": 3592,
+      "start": 1777150800,
+      "end": 1790082000,
+      "hash": "2fae17b170bbe96502a25dd0c3d88bddd374e8d0d6a973c427ec7e0aca3a1593"
+    },
+    {
+      "bars": 489,
+      "start": 1790085600,
+      "end": 1791846000,
+      "hash": "8daaebbb08a2c42970e017761c273f4c28e1e05ae63e4a2054c3bb24419039b4"
+    },
+    {
+      "bars": 161,
+      "start": 1791867600,
+      "end": 1792447200,
+      "hash": "56581b2d2a681182836745c9beafd5dca565e27dddf4d27f1eea40175b52abcd"
+    },
+    {
+      "bars": 61,
+      "start": 1792483200,
+      "end": 1792702800,
+      "hash": "b9fbb18dfb7058b0b8b06254032262ff4b14ceed3c70fb2af611b8add773af46"
+    }
+  ]
+}

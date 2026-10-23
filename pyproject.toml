@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wallex-research-agent"
+version = "0.1.0"
+description = "Causal AI trading research and auditable shadow execution; live orders disabled"
+requires-python = ">=3.11"
+dependencies = ["pydantic==2.14.1", "google-genai==2.32.0", "openai==3.37.0"]
+
+[project.scripts]
+wallex-agent = "wallex_agent.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["wallex_agent*"]

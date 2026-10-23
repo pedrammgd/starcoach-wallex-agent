@@ -1,0 +1,378 @@
+{
+  "observed_at": "20261023T123453Z",
+  "live_orders": false,
+  "exchange_authenticated_requests": 0,
+  "execution_site": "local; Liara region not verified",
+  "model": "openai/gpt-5.4-mini",
+  "shadow": [
+    {
+      "status": "public_shadow",
+      "observed_at": 1792758895,
+      "symbol": "BTCTMN",
+      "target": 0,
+      "fill": null,
+      "equity": 5000000.0,
+      "agent": {
+        "decision": {
+          "action": "HOLD",
+          "allocation": 0,
+          "confidence": 0.56,
+          "reason": "low LLM confidence"
+        },
+        "status": "ok",
+        "model": "boxapi:openai/gpt-5.4-mini",
+        "prompt_hash": "2127048edb3831eb53432e914936b5e03389ffea0e44567d3c5db57d31041740",
+        "context_hash": "0077d3770489c377390c6d1cc3d0e8403334d9231561dbf8311785dd36df92b5",
+        "provider_metadata": {
+          "provider": "boxapi",
+          "base_url": "https://ai.boxapi.ir/ai/v1",
+          "requested_model": "openai/gpt-5.4-mini",
+          "attempts": 1,
+          "billing_unknown_attempts": 0,
+          "schema_format": "json_schema",
+          "usage": {
+            "completion_tokens": 88,
+            "prompt_tokens": 314,
+            "total_tokens": 402,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0,
+              "text_tokens": null
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cache_write_tokens": null,
+              "cached_tokens": 0,
+              "image_tokens": null,
+              "text_tokens": null
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 5,
+              "engine_ttft_ms": 38,
+              "engine_ttlt_ms": 514,
+              "pre_inference_ms": 118,
+              "service_tbt_ms": 5,
+              "service_ttft_ms": 349,
+              "service_ttlt_ms": 820,
+              "user_visible_ttft_ms": 231
+            },
+            "cost": 0.000726225,
+            "is_byok": false,
+            "cost_details": {
+              "upstream_inference_cost": 0.000726225
+            }
+          },
+          "returned_model": "openai/gpt-5.4-mini",
+          "provider_reported_cost": 0.000726225,
+          "cost_unit": "unverified; do not interpret as USD",
+          "validated_json": true,
+          "latency_ms": 3007
+        }
+      },
+      "decision_latency_ms": 3064,
+      "depth_verified": false
+    },
+    {
+      "status": "public_shadow",
+      "observed_at": 1792758960,
+      "symbol": "BTCTMN",
+      "target": 0,
+      "fill": null,
+      "equity": 5000000.0,
+      "agent": {
+        "decision": {
+          "action": "HOLD",
+          "allocation": 0,
+          "confidence": 0.89,
+          "reason": "expected_return is 0.00021487195053145324, which is far below roundtrip_cost 0.009; with probability 0.5706323063167574 and current_allocation 0.0, the positive edge is not sufficient after costs, so HOLD under the short-horizon rule. Features cited: [1.0,0.0,0.9323748902621979,0.2465004551470389,0.2956311595123887,0.0,0.0,-1.0]."
+        },
+        "status": "ok",
+        "model": "boxapi:openai/gpt-5.4-mini",
+        "prompt_hash": "2127048edb3831eb53432e914936b5e03389ffea0e44567d3c5db57d31041740",
+        "context_hash": "fd29bd74a1283553174246f2efc4052c5ed44dc444294b4d4614962dd70a16f5",
+        "provider_metadata": {
+          "provider": "boxapi",
+          "base_url": "https://ai.boxapi.ir/ai/v1",
+          "requested_model": "openai/gpt-5.4-mini",
+          "attempts": 1,
+          "billing_unknown_attempts": 0,
+          "schema_format": "json_schema",
+          "usage": {
+            "completion_tokens": 142,
+            "prompt_tokens": 314,
+            "total_tokens": 456,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0,
+              "text_tokens": null
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cache_write_tokens": null,
+              "cached_tokens": 0,
+              "image_tokens": null,
+              "text_tokens": null
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 4,
+              "engine_ttft_ms": 29,
+              "engine_ttlt_ms": 640,
+              "pre_inference_ms": 113,
+              "service_tbt_ms": 4,
+              "service_ttft_ms": 335,
+              "service_ttlt_ms": 943,
+              "user_visible_ttft_ms": 221
+            },
+            "cost": 0.001005675,
+            "is_byok": false,
+            "cost_details": {
+              "upstream_inference_cost": 0.001005675
+            }
+          },
+          "returned_model": "openai/gpt-5.4-mini",
+          "provider_reported_cost": 0.001005675,
+          "cost_unit": "unverified; do not interpret as USD",
+          "validated_json": true,
+          "latency_ms": 3123
+        }
+      },
+      "decision_latency_ms": 3157,
+      "depth_verified": false
+    }
+  ],
+  "real_inference_count": 3,
+  "nominal_AI_USD_reservation_is_not_verified_cost": true,
+  "historical_training_candidate": {
+    "symbol": "BTCTMN",
+    "kind": "historical training replay; NOT forward trading or profitability evidence",
+    "candidate_time": 1777366800,
+    "closed_candle": {
+      "timestamp": 1777363200,
+      "open": 12371814721.0,
+      "high": 12440000000.0,
+      "low": 12320000000.0,
+      "close": 12440000000.0,
+      "volume": 0.660666
+    },
+    "baseline_target": 0.19999999999999998,
+    "AI_target_after_independent_risk": 0.0,
+    "agent": {
+      "decision": {
+        "action": "HOLD",
+        "allocation": 0,
+        "confidence": 0.6,
+        "reason": "low LLM confidence"
+      },
+      "status": "ok",
+      "model": "boxapi:openai/gpt-5.4-mini",
+      "prompt_hash": "2127048edb3831eb53432e914936b5e03389ffea0e44567d3c5db57d31041740",
+      "context_hash": "62d69d00a8c5cc99bb625265abe0142862e9a05bcc28541bd473d969fb91132d",
+      "provider_metadata": {
+        "provider": "boxapi",
+        "base_url": "https://ai.boxapi.ir/ai/v1",
+        "requested_model": "openai/gpt-5.4-mini",
+        "attempts": 1,
+        "billing_unknown_attempts": 0,
+        "schema_format": "json_schema",
+        "usage": {
+          "completion_tokens": 103,
+          "prompt_tokens": 345,
+          "total_tokens": 448,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0,
+            "text_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          },
+          "latency_checkpoint": {
+            "engine_tbt_ms": 5,
+            "engine_ttft_ms": 37,
+            "engine_ttlt_ms": 596,
+            "pre_inference_ms": 120,
+            "service_tbt_ms": 5,
+            "service_ttft_ms": 344,
+            "service_ttlt_ms": 899,
+            "user_visible_ttft_ms": 225
+          },
+          "cost": 0.0008305875,
+          "is_byok": false,
+          "cost_details": {
+            "upstream_inference_cost": 0.0008305875
+          }
+        },
+        "returned_model": "openai/gpt-5.4-mini",
+        "provider_reported_cost": 0.0008305875,
+        "cost_unit": "unverified; do not interpret as USD",
+        "validated_json": true,
+        "latency_ms": 2560
+      }
+    },
+    "reason": "LLM HOLD: low LLM confidence",
+    "risk_reasons": []
+  },
+  "journal_events": 9,
+  "token_usage": [
+    {
+      "attempts": 1,
+      "base_url": "https://ai.boxapi.ir/ai/v1",
+      "billing_unknown_attempts": 0,
+      "cost_unit": "unverified; do not interpret as USD",
+      "latency_ms": 3007,
+      "provider": "boxapi",
+      "provider_reported_cost": 0.000726225,
+      "requested_model": "openai/gpt-5.4-mini",
+      "returned_model": "openai/gpt-5.4-mini",
+      "schema_format": "json_schema",
+      "usage": {
+        "completion_tokens": 88,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "cost": 0.000726225,
+        "cost_details": {
+          "upstream_inference_cost": 0.000726225
+        },
+        "is_byok": false,
+        "latency_checkpoint": {
+          "engine_tbt_ms": 5,
+          "engine_ttft_ms": 38,
+          "engine_ttlt_ms": 514,
+          "pre_inference_ms": 118,
+          "service_tbt_ms": 5,
+          "service_ttft_ms": 349,
+          "service_ttlt_ms": 820,
+          "user_visible_ttft_ms": 231
+        },
+        "prompt_tokens": 314,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        },
+        "total_tokens": 402
+      },
+      "validated_json": true
+    },
+    {
+      "attempts": 1,
+      "base_url": "https://ai.boxapi.ir/ai/v1",
+      "billing_unknown_attempts": 0,
+      "cost_unit": "unverified; do not interpret as USD",
+      "latency_ms": 3123,
+      "provider": "boxapi",
+      "provider_reported_cost": 0.001005675,
+      "requested_model": "openai/gpt-5.4-mini",
+      "returned_model": "openai/gpt-5.4-mini",
+      "schema_format": "json_schema",
+      "usage": {
+        "completion_tokens": 142,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "cost": 0.001005675,
+        "cost_details": {
+          "upstream_inference_cost": 0.001005675
+        },
+        "is_byok": false,
+        "latency_checkpoint": {
+          "engine_tbt_ms": 4,
+          "engine_ttft_ms": 29,
+          "engine_ttlt_ms": 640,
+          "pre_inference_ms": 113,
+          "service_tbt_ms": 4,
+          "service_ttft_ms": 335,
+          "service_ttlt_ms": 943,
+          "user_visible_ttft_ms": 221
+        },
+        "prompt_tokens": 314,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        },
+        "total_tokens": 456
+      },
+      "validated_json": true
+    },
+    {
+      "attempts": 1,
+      "base_url": "https://ai.boxapi.ir/ai/v1",
+      "billing_unknown_attempts": 0,
+      "cost_unit": "unverified; do not interpret as USD",
+      "latency_ms": 2560,
+      "provider": "boxapi",
+      "provider_reported_cost": 0.0008305875,
+      "requested_model": "openai/gpt-5.4-mini",
+      "returned_model": "openai/gpt-5.4-mini",
+      "schema_format": "json_schema",
+      "usage": {
+        "completion_tokens": 103,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "cost": 0.0008305875,
+        "cost_details": {
+          "upstream_inference_cost": 0.0008305875
+        },
+        "is_byok": false,
+        "latency_checkpoint": {
+          "engine_tbt_ms": 5,
+          "engine_ttft_ms": 37,
+          "engine_ttlt_ms": 596,
+          "pre_inference_ms": 120,
+          "service_tbt_ms": 5,
+          "service_ttft_ms": 344,
+          "service_ttlt_ms": 899,
+          "user_visible_ttft_ms": 225
+        },
+        "prompt_tokens": 345,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        },
+        "total_tokens": 448
+      },
+      "validated_json": true
+    }
+  ],
+  "sealed_new_holdout": {
+    "file": "data/final_holdout_sealed_BTCTMN.csv",
+    "bars": 15,
+    "dataset_hash": "c52361ca00d7dac92a9fce804babcd1e9f92846e99e9fab80cdbc6eab46323b0",
+    "start": 1792702800,
+    "end": 1792756800,
+    "evaluated": false,
+    "too_short_for_performance_claim": true
+  }
+}

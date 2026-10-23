@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-10-23T12:31:47.587602+00:00",
+  "strategies": [
+    "momentum",
+    "mean_reversion",
+    "regime",
+    "ai",
+    "cash"
+  ],
+  "cost_scenarios": {
+    "base_assumed": 1,
+    "zero_cost_diagnostic": 0,
+    "double_cost_stress": 2
+  },
+  "selection": "base cost only; positive median, >=10 fills total, positive >=4/5 segments, max DD <=4%; maximize mean return minus worst DD; otherwise cash",
+  "partitions": "original first 50% warm/train, next 25% validation ONLY; old final 25% was previously exposed and is not fresh untouched evidence",
+  "new_final_holdout": "fresh post-2026-10-22T21:00Z data sealed separately; not evaluated by this study",
+  "parameter_search": false,
+  "actual_exchange_fees_verified": false,
+  "source": {
+    "git_sha": null,
+    "git_dirty": null,
+    "source_hash": "54ac50a1ee3a680431c84e6e154f166641dea9efa8a715e8e2825c4149195517",
+    "files": {
+      "pyproject.toml": "b8975d176834222aed490067847a4957dfb6ba0b6aaef72b5da5067fce30b3c7",
+      "wallex_agent/__init__.py": "3af4ffa31f2836827d557461787a098d95f8419b9f22a4e4ed9e6112cf6440d8",
+      "wallex_agent/access.py": "63700dca133ddef00971e454f334c6cd1441059ca68925349d44f16767e3bd94",
+      "wallex_agent/ai.py": "5b0b84d30a0c7957451151d1e4f94cb9591a67f8e88780ec2e3d578324e7263e",
+      "wallex_agent/boxapi.py": "6c5097ef92653cf4769339faefd0d0558f52bbc3b2803d94c1853dc26a5794f1",
+      "wallex_agent/boxapi_verify.py": "928ded07f484c1edf5775d05a7bba2b3ef87f267f9a02560d97f4e55305135e5",
+      "wallex_agent/cli.py": "00d81728b05e2b166e3453e389f61914b3170f57adcea3b26ca612c64fbe3f9b",
+      "wallex_agent/closing.py": "27f49de65df3eba4a00486571a5fe1dcfabb323d5cc9a0671eab236f3f7b146c",
+      "wallex_agent/credit.py": "c41c47b5bd36b14209c49b793d0f695b74b5e3d341e8ffb6dd63ab58a76f1778",
+      "wallex_agent/data.py": "9be2c32798157f600bab2aa3e956ec2b685b0d2fb79f71b3c30ea260cca42007",
+      "wallex_agent/engine.py": "5c9f03de22797961665832d24ead068c5080c26d57eb82b135115da06bcf05e6",
+      "wallex_agent/evaluation.py": "f3c13f0cd71222c0c5d399f31ddf1f0eb87d9373e8926b747eaf3e8af3cbabe7",
+      "wallex_agent/execution.py": "63bf00e7193dca88c038a63da0ae24caafffe67ab54c17e17c6a377a4eb25134",
+      "wallex_agent/gemini.py": "a7b042817a3d9d58b9e1b6e501423125f1cd0052f0c4e6561970ee31e9df826d",
+      "wallex_agent/journal.py": "1990c020af31f5016d082e1e35244583622d9416cfb31e926df74e5a70600491",
+      "wallex_agent/model.py": "8160226b3992dc4e5001f0cee95ee05a7ccd3d9dd4d53231e11ff58dbf6a1159",
+      "wallex_agent/runtime.py": "3aa4dd220d582d36a81d1febbf69b225f789cf56b278d6320f90bdc816541b87",
+      "wallex_agent/safety.py": "0660e233111de4737065e85d7af856c3eb350ab3854d56acdf08130c6aea7900",
+      "wallex_agent/settings.py": "a8e4eca01b9b640a93dd8649b55869feb3a68cf6a7fd04d78899cf3cfc9ec92e",
+      "wallex_agent/shadow.py": "874401c4b054fe88fcc627d5f7be93945f126281dae47a75c8e1c7ad68c491ac"
+    }
+  }
+}

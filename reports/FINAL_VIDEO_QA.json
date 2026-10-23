@@ -1,0 +1,71 @@
+{
+  "file": "wallex-final-demo-with-voice.mp4",
+  "duration_seconds": 300,
+  "width": 1920,
+  "height": 1080,
+  "video_codec": "H264",
+  "audio_codec": "AAC",
+  "narration": "synthetic Persian fa-IR-FaridNeural",
+  "synthetic_label_burned_in": true,
+  "original_preserved": true,
+  "source_sha256": "99a3fe89a91a096989f3a72db53378102dbb8847a2de115c2f3ab91dad235f05",
+  "sha256": "9911fa08acfdd67a7647efbe95eae54c4a8236972d5a5f519f8c088c2aa7e09f",
+  "bytes": 16756730,
+  "full_decode_passed": true,
+  "segments": [
+    {
+      "scene": 1,
+      "start": 0,
+      "duration": 40,
+      "source_speech_seconds": 44.81,
+      "tempo_adjustment": 1.1792105263157895
+    },
+    {
+      "scene": 2,
+      "start": 40,
+      "duration": 55,
+      "source_speech_seconds": 60.6,
+      "tempo_adjustment": 1.1433962264150943
+    },
+    {
+      "scene": 3,
+      "start": 95,
+      "duration": 50,
+      "source_speech_seconds": 52.78,
+      "tempo_adjustment": 1.0995833333333334
+    },
+    {
+      "scene": 4,
+      "start": 145,
+      "duration": 45,
+      "source_speech_seconds": 48.82,
+      "tempo_adjustment": 1.1353488372093024
+    },
+    {
+      "scene": 5,
+      "start": 190,
+      "duration": 60,
+      "source_speech_seconds": 63.43,
+      "tempo_adjustment": 1.0936206896551723
+    },
+    {
+      "scene": 6,
+      "start": 250,
+      "duration": 50,
+      "source_speech_seconds": 57.55,
+      "tempo_adjustment": 1.1989583333333333
+    }
+  ],
+  "real_orders": 0,
+  "new_AI_inference_during_video": false,
+  "audio_mean_volume_dB": -19.8,
+  "audio_peak_volume_dB": -4.2,
+  "local_Persian_speech_recognition_verified": true,
+  "local_audio_sample_playback_exit_code": 0,
+  "quicktime_playback_verified": true,
+  "quicktime_timeline_progress_seconds": [
+    30.85,
+    229.76
+  ],
+  "quicktime_volume": 1
+}

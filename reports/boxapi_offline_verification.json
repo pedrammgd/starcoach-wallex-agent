@@ -1,0 +1,1 @@
+{"key_configured":false,"live_orders":false,"mode":"shadow","network_calls":0,"note":"Run offline SDK transport tests separately; this is not inference.","observed_at":"2026-10-23T19:42:09.540748+00:00","provider":"boxapi","real_inference_verified":false,"requested_model":"openai/gpt-5.4-mini","status":"OFFLINE_CONFIGURATION_ONLY","structured_output_verified":false}

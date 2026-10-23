@@ -1,0 +1,5 @@
+{
+  "url": "https://api.wallex.com/depth/all",
+  "authenticated": false,
+  "error_type": "ConnectError"
+}

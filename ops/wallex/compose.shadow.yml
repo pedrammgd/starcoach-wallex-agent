@@ -1,0 +1,38 @@
+# Local preparation only; not deployed. Cloud team/region/cost need separate verification.
+services:
+  wallex-shadow:
+    build:
+      context: ../..
+    command: ["--config", "configs/minute_shadow.json", "shadow", "--symbol", "BTCTMN", "--strategy", "cash", "--journal", "state/shadow.sqlite", "--cycles", "100000", "--poll-seconds", "60"]
+    restart: unless-stopped
+    init: true
+    read_only: true
+    environment:
+      TRADING_MODE: shadow
+      ENABLE_LIVE_TRADING: "false"
+      WALLEX_READ_ONLY: "true"
+      WALLEX_PRIVATE_READS_ENABLED: "false"
+      WALLEX_ENABLE_WITHDRAWALS: "false"
+      WALLEX_ENABLE_TRANSFERS: "false"
+      LLM_PROVIDER: boxapi
+      BOXAPI_MODEL: openai/gpt-5.4-mini
+      BOXAPI_BASE_URL: https://ai.boxapi.ir/ai/v1
+      BOXAPI_API_KEY: ${BOXAPI_API_KEY:-YOUR_BOXAPI_API_KEY_HERE}
+    volumes:
+      - wallex_state:/app/state
+      - wallex_data:/app/data
+      - wallex_reports:/app/reports
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
+    cap_drop: [ALL]
+    logging:
+      driver: json-file
+      options:
+        max-size: 5m
+        max-file: "3"
+volumes:
+  wallex_state:
+  wallex_data:
+  wallex_reports:

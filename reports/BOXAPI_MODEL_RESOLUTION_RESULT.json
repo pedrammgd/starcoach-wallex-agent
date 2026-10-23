@@ -1,0 +1,39 @@
+{
+  "observed_at": "2026-10-22T22:50:11.385712+00:00",
+  "status": "ONLINE_OK",
+  "requested_model": "openai/gpt-5.4-mini",
+  "selected_model": "openai/gpt-5.4-mini",
+  "catalog_base_url": "https://ai.boxapi.ir/ai/v1",
+  "resolved_candidates": [
+    "openai/gpt-5.4-mini",
+    "openai/gpt-5.4-nano"
+  ],
+  "real_inference_verified": true,
+  "structured_output_verified": true,
+  "journal_events": 8,
+  "decision_log": "reports/boxapi_verification_decisions.jsonl",
+  "models": [
+    {
+      "model": "openai/gpt-5.4-mini",
+      "valid_samples": 2,
+      "median_latency_ms": 1974.5,
+      "prompt_tokens": 590,
+      "completion_tokens": 161,
+      "total_tokens": 751,
+      "attempts": 2
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "valid_samples": 2,
+      "median_latency_ms": 2267.5,
+      "prompt_tokens": 584,
+      "completion_tokens": 219,
+      "total_tokens": 803,
+      "attempts": 2
+    }
+  ],
+  "offline_tests_passed": 59,
+  "live_orders": false,
+  "gemini_modified": false,
+  "journal_chain_verified": true
+}

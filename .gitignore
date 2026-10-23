@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+.venv/
+.tools/
+WALLEX_CHALLENGE_VIDEO.mp4
+.env
+.env.*
+!.env.example
+*.sqlite*
+build/
+dist/
+*.egg-info/
+
+.liara-auth.json
+.liara/
+.secrets/
+
+# Authenticated access observations stay local, even though values are redacted.
+reports/credit_readonly_verification.json
+reports/official/
+
+reports/wallex_retest_*.json
+artifacts/*
+!artifacts/wallex-demo/
+artifacts/wallex-demo/*
+!artifacts/wallex-demo/index.html
+!artifacts/wallex-demo-final.mp4
